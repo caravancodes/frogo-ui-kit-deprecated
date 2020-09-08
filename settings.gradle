@@ -1,0 +1,3 @@
+include ':frogodesignkit'
+include ':app'
+rootProject.name = "FrogoUIKit"
