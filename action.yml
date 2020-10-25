@@ -1,0 +1,12 @@
+name: 'Frogo-UI-Kit'
+description: 'Library Easy UI Kit Based on Design Guideline, Full and Clear Documentation, :books:'
+author: 'Muhammad Faisal Amir'
+inputs:
+  myInput:
+    description: 'Input to use'
+    default: 'world'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.myInput }}

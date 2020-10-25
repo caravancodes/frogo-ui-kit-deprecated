@@ -11,15 +11,16 @@
 # Version Release
 This Is Latest Release
 
-    $version_release = 1.0.1
+    $version_release = 1.0.2
 
 What's New??
 
     * Frogo UI Kit *
-    * Adding: Layouts *
-    * Adding: Drawables *
-    * Adding: String *
-    * Adding: Styles *
+    * Add: Layouts *
+    * Add: Drawables *
+    * Add: String *
+    * Add: Styles *
+    * Add: ViewBinding Mode *
 
 # Download this project
 
@@ -38,7 +39,7 @@ What's New??
     
     dependencies {
             // library frogo-ui-kit
-            implementation 'com.github.amirisback:frogo-ui-kit:1.0.1'
+            implementation 'com.github.amirisback:frogo-ui-kit:1.0.2'
     }
 
 # Documentation
