@@ -9,8 +9,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/frogo_bg_deep_purple_4dp"
-        android:text="Hello World!"
+        android:background="@drawable/frogo_bg_accent_16dp"
+        android:text="Welcome To Frogo UI Kit"
+        android:padding="@dimen/frogo_dimen_8dp"
+        android:textColor="@color/frogoColorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

@@ -38,6 +38,8 @@ What's New??
 ## drawables
 ![ScreenShoot Apps](docs/image/ss_drawables.png?raw=true)
 
+    frogo_container_empty_view.xml
+    frogo_empty_view.xml
     frogo_bg_accent_4dp.xml
     frogo_bg_accent_8dp.xml
     frogo_bg_accent_16dp.xml
@@ -246,6 +248,121 @@ What's New??
     <color name="frogoColorDarkYellow">#FFC107</color>
     <color name="frogoColorAmber">#FF9800</color>
     <color name="frogoColorOrange">#FF5722</color>
+
+## layout
+
+    frogo_container_empty_view.xml
+    frogo_empty_view.xml
+    frogo_rv_grid_type_1.xml
+    frogo_rv_grid_type_2.xml
+    frogo_rv_grid_type_3.xml
+    frogo_rv_grid_type_4.xml
+    frogo_rv_grid_type_5.xml
+    frogo_rv_grid_type_6.xml
+    frogo_rv_grid_type_7.xml
+    frogo_rv_list_type_1.xml
+    frogo_rv_list_type_10.xml
+    frogo_rv_list_type_11.xml
+    frogo_rv_list_type_12.xml
+    frogo_rv_list_type_2.xml
+    frogo_rv_list_type_3.xml
+    frogo_rv_list_type_4.xml
+    frogo_rv_list_type_5.xml
+    frogo_rv_list_type_6.xml
+    frogo_rv_list_type_7.xml
+    frogo_rv_list_type_8.xml
+    frogo_rv_list_type_9.xml
+
+
+## strings
+
+    <!--  Frogo Base String  -->
+    <string name="frogo_is_empty_data">is Empty Data</string>
+    <string name="frogo_no_data_found">No data found</string>
+    <string name="frogo_please_insert_data">Please insert data here !!!</string>
+    <string name="frogo_dummy_content_description">This Is Image</string>
+
+## styles
+
+    <!-- Util -->
+
+    <style name="frogoBaseAreaWrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="frogoBaseAreaMatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="frogoBaseAreaWidthMatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="frogoBaseAreaHeightMatchParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="frogoArea64dp">
+        <item name="android:layout_width">@dimen/frogo_dimen_64dp</item>
+        <item name="android:layout_height">@dimen/frogo_dimen_64dp</item>
+    </style>
+
+    <style name="frogoArea48dp">
+        <item name="android:layout_width">@dimen/frogo_dimen_48dp</item>
+        <item name="android:layout_height">@dimen/frogo_dimen_48dp</item>
+    </style>
+
+    <!-- TextView -->
+
+    <style name="frogoTvListTitle" parent="frogoBaseAreaWrapContent">
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/frogoColorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/frogo_dimen_font_16sp</item>
+    </style>
+
+    <style name="FrogoTvListSubTitle" parent="frogoBaseAreaWrapContent">
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">@dimen/frogo_dimen_font_12sp</item>
+    </style>
+
+    <style name="FrogoTvListDescription" parent="frogoBaseAreaWrapContent">
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">@color/frogoColorBlack</item>
+        <item name="android:textSize">@dimen/frogo_dimen_font_11sp</item>
+    </style>
+
+    <!-- Layout Container -->
+
+    <style name="FrogoLayoutList8dp" parent="frogoBaseAreaWidthMatchParent">
+        <item name="android:layout_marginStart">@dimen/frogo_dimen_16dp</item>
+        <item name="android:layout_marginEnd">@dimen/frogo_dimen_16dp</item>
+        <item name="android:layout_marginBottom">@dimen/frogo_dimen_16dp</item>
+        <item name="android:elevation">@dimen/frogo_dimen_2dp</item>
+        <item name="android:padding">@dimen/frogo_dimen_16dp</item>
+        <item name="android:background">@drawable/frogo_bg_card_8dp</item>
+    </style>
+
+    <style name="FrogoLayoutListWrap8dp" parent="frogoBaseAreaWrapContent">
+        <item name="android:layout_marginStart">@dimen/frogo_dimen_16dp</item>
+        <item name="android:layout_marginEnd">@dimen/frogo_dimen_16dp</item>
+        <item name="android:layout_marginBottom">@dimen/frogo_dimen_16dp</item>
+        <item name="android:elevation">@dimen/frogo_dimen_2dp</item>
+        <item name="android:padding">@dimen/frogo_dimen_16dp</item>
+        <item name="android:background">@drawable/frogo_bg_card_8dp</item>
+    </style>
+
+    <style name="FrogoLayoutGrid8dp" parent="frogoBaseAreaWidthMatchParent">
+        <item name="android:layout_marginEnd">@dimen/frogo_dimen_16dp</item>
+        <item name="android:layout_marginBottom">@dimen/frogo_dimen_16dp</item>
+        <item name="android:elevation">@dimen/frogo_dimen_2dp</item>
+        <item name="android:padding">@dimen/frogo_dimen_16dp</item>
+        <item name="android:background">@drawable/frogo_bg_card_8dp</item>
+    </style>
 
 # Colaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
