@@ -1,9 +1,13 @@
 name: 'Frogo-UI-Kit'
 description: 'Library Easy UI Kit Based on Design Guideline, Full and Clear Documentation, :books:'
 author: 'Muhammad Faisal Amir'
+branding:
+  icon: archive
+  color: green
 inputs:
   myInput:
     description: 'Input to use'
+    required: false
     default: 'world'
 runs:
   using: 'docker'
