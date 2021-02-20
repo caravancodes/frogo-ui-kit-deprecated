@@ -20,7 +20,7 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/frogo_rv_grid_type_7_frogo_dummy_content_description"
+        android:id="@+id/frogo_rv_grid_type_7_iv_poster"
         android:layout_width="match_parent"
         android:layout_height="@dimen/frogo_dimen_150dp"
         android:contentDescription="@string/frogo_dummy_content_description"

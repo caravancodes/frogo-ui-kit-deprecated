@@ -26,7 +26,7 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/frogo_rv_empty_frogo_dummy_content_description"
+        android:id="@+id/frogo_rv_empty_iv_poster"
         android:layout_width="@dimen/frogo_dimen_150dp"
         android:layout_height="@dimen/frogo_dimen_150dp"
         android:src="@drawable/frogo_ic_empty_view" />
