@@ -1,6 +1,7 @@
 ![ScreenShoot Apps](docs/image/ss_banner.png?raw=true)
 
 # About This Project
+[![](https://jitpack.io/v/amirisback/frogo-ui-kit.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-ui-kit)
 - Frogo drawables
 - Frogo layouts
 - Frogo dimens
@@ -11,13 +12,11 @@
 # Version Release
 This Is Latest Release
 
-    $version_release = 1.0.3
+    $version_release = 1.0.4
 
 What's New??
 
-    * Frogo UI Kit *
-    * Bug Fixing *
-    * Remove Unused Sources *
+    * Fixing ID layout *
     * Update Gradle Latest Version *
 
 # Download this project
@@ -37,7 +36,7 @@ What's New??
     
     dependencies {
             // library frogo-ui-kit
-            implementation 'com.github.amirisback:frogo-ui-kit:1.0.3'
+            implementation 'com.github.amirisback:frogo-ui-kit:1.0.4'
     }
 
 # Documentation
