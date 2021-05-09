@@ -12,11 +12,10 @@
 # Version Release
 This Is Latest Release
 
-    $version_release = 1.0.4
+    $version_release = 1.0.5
 
 What's New??
 
-    * Fixing ID layout *
     * Update Gradle Latest Version *
 
 # Download this project
@@ -36,7 +35,7 @@ What's New??
     
     dependencies {
             // library frogo-ui-kit
-            implementation 'com.github.amirisback:frogo-ui-kit:1.0.4'
+            implementation 'com.github.amirisback:frogo-ui-kit:1.0.5'
     }
 
 # Documentation
