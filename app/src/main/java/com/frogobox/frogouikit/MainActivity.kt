@@ -1,22 +1,17 @@
 package com.frogobox.frogouikit
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
 import android.widget.TextView
-import com.frogobox.frogouikit.databinding.ActivityMainBinding
+import com.frogobox.frogouikit.core.BaseActivity
 import com.frogobox.recycler.core.IFrogoViewAdapter
 import com.google.gson.Gson
 
-class MainActivity : AppCompatActivity() {
-
-    private lateinit var mainBinding: ActivityMainBinding
+class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mainBinding = ActivityMainBinding.inflate(LayoutInflater.from(this))
         setContentView(mainBinding.root)
         setupRecyclerView()
     }
@@ -48,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun intentToLayoutSample(data: Layout) {
         val dataString = Gson().toJson(data)
-        val intent = Intent(this@MainActivity, LayoutSamplesActivity::class.java)
+        val intent = Intent(this@MainActivity, RecyclerViewActivity::class.java)
         intent.putExtra("EXTRA_DATA", dataString)
         startActivity(intent)
     }
