@@ -15,5 +15,6 @@ package com.frogobox.frogouikit
 
 data class Layout(
     val name: String,
-    val type: String
+    val type: String,
+    val layout: Int,
 )
