@@ -68,6 +68,7 @@ dependencies {
 
     implementation 'com.github.amirisback:frogo-recycler-view:3.5.0'
     implementation project(':frogodesignkit')
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'

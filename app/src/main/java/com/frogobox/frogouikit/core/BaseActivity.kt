@@ -27,8 +27,11 @@ abstract class BaseActivity : AppCompatActivity() {
     protected lateinit var recyclerViewBinding: ActivityRecyclerViewBinding
     protected lateinit var recyclerViewDetailBinding: ActivityRecyclerViewDetailBinding
 
+    protected lateinit var mActivity: AppCompatActivity
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        mActivity = this
         setupViewBinding()
     }
 

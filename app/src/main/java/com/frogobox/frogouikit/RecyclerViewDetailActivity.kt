@@ -26,7 +26,7 @@ class RecyclerViewDetailActivity : BaseActivity() {
         val extraData = intent.getStringExtra("EXTRA_DATA")
         val data = Gson().fromJson(extraData, Layout::class.java)
 
-        recyclerViewBinding.frogoRv.injector<String>()
+        recyclerViewDetailBinding.frogoRv.injector<String>()
             .addCallback(object : IFrogoViewAdapter<String> {
                 override fun onItemClicked(data: String) {}
                 override fun onItemLongClicked(data: String) {}
