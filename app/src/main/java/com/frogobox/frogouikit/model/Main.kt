@@ -1,7 +1,9 @@
-package com.frogobox.frogouikit
+package com.frogobox.frogouikit.model
+
+import android.content.Intent
 
 /*
- * Created by faisalamir on 20/05/21
+ * Created by faisalamir on 21/05/21
  * FrogoUIKit
  * -----------------------------------------
  * Name     : Muhammad Faisal Amir
@@ -12,9 +14,7 @@ package com.frogobox.frogouikit
  * All rights reserved
  *
  */
-
-data class Layout(
+data class Main(
     val name: String,
-    val type: String,
-    val layout: Int,
+    val intent: Intent
 )

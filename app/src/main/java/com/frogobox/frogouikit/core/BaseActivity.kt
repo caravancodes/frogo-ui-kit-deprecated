@@ -7,6 +7,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.frogobox.frogouikit.databinding.ActivityMainBinding
 import com.frogobox.frogouikit.databinding.ActivityRecyclerViewBinding
+import com.frogobox.frogouikit.databinding.ActivityRecyclerViewDetailBinding
 
 /*
  * Created by faisalamir on 20/05/21
@@ -24,6 +25,7 @@ abstract class BaseActivity : AppCompatActivity() {
 
     protected lateinit var mainBinding: ActivityMainBinding
     protected lateinit var recyclerViewBinding: ActivityRecyclerViewBinding
+    protected lateinit var recyclerViewDetailBinding: ActivityRecyclerViewDetailBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -54,6 +56,7 @@ abstract class BaseActivity : AppCompatActivity() {
         // genereate view binding
         mainBinding = ActivityMainBinding.inflate(baseLayoutInflater())
         recyclerViewBinding = ActivityRecyclerViewBinding.inflate(baseLayoutInflater())
+        recyclerViewDetailBinding = ActivityRecyclerViewDetailBinding.inflate(baseLayoutInflater())
     }
 
     private fun baseLayoutInflater() : LayoutInflater {
