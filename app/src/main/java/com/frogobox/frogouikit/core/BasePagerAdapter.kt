@@ -1,8 +1,12 @@
 package com.frogobox.frogouikit.core
 
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentPagerAdapter
+import androidx.fragment.app.FragmentActivity
+import androidx.viewpager2.adapter.FragmentStateAdapter
+import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
+
 
 /**
  * Created by Faisal Amir
@@ -22,19 +26,22 @@ import androidx.fragment.app.FragmentPagerAdapter
  *
  */
 
-class BasePagerAdapter(fragmentManager: FragmentManager): FragmentPagerAdapter(fragmentManager){
+class BasePagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
 
-    private val fragments = ArrayList<Fragment>()
-    private val titles = ArrayList<String>()
-
-    override fun getItem(position: Int): Fragment = fragments[position]
-
-    override fun getCount(): Int = fragments.size
-
-    override fun getPageTitle(position: Int): CharSequence? = titles[position]
+    val fragments = ArrayList<Fragment>()
+    val titles = ArrayList<String>()
 
     fun setupPagerFragment(fragment: Fragment, title: String) {
         fragments.add(fragment)
         titles.add(title)
     }
+
+    override fun createFragment(position: Int): Fragment {
+        return fragments[position]
+    }
+
+    override fun getItemCount(): Int {
+        return fragments.size
+    }
+
 }

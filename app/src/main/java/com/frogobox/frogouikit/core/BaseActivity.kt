@@ -5,9 +5,12 @@ import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import androidx.viewpager2.widget.ViewPager2
 import com.frogobox.frogouikit.databinding.ActivityMainBinding
 import com.frogobox.frogouikit.databinding.ActivityRecyclerViewBinding
 import com.frogobox.frogouikit.databinding.ActivityRecyclerViewDetailBinding
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 
 /*
  * Created by faisalamir on 20/05/21
@@ -37,6 +40,7 @@ abstract class BaseActivity : AppCompatActivity() {
 
     protected fun setupDetailActivity(title: String) {
         supportActionBar?.title = title
+        supportActionBar?.elevation = 0f
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
@@ -54,15 +58,24 @@ abstract class BaseActivity : AppCompatActivity() {
         }
     }
 
+    protected fun setupTabTitles(
+        tabLayout: TabLayout,
+        viewPager2: ViewPager2,
+        titles: MutableList<String>
+    ) {
+        TabLayoutMediator(tabLayout, viewPager2) { tab: TabLayout.Tab, position: Int ->
+            tab.text = titles[position]
+        }.attach()
+    }
 
-    private fun setupViewBinding(){
+    private fun setupViewBinding() {
         // genereate view binding
         mainBinding = ActivityMainBinding.inflate(baseLayoutInflater())
         recyclerViewBinding = ActivityRecyclerViewBinding.inflate(baseLayoutInflater())
         recyclerViewDetailBinding = ActivityRecyclerViewDetailBinding.inflate(baseLayoutInflater())
     }
 
-    private fun baseLayoutInflater() : LayoutInflater {
+    private fun baseLayoutInflater(): LayoutInflater {
         return LayoutInflater.from(this)
     }
 

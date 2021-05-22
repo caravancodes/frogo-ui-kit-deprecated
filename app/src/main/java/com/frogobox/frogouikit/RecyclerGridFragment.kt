@@ -48,7 +48,7 @@ class RecyclerGridFragment : BaseFragment() {
                 override fun setupInitComponent(view: View, data: Layout) {
                     view.findViewById<TextView>(R.id.frogo_rv_grid_type_1_tv_title).text = data.name
                     view.findViewById<ImageView>(R.id.frogo_rv_grid_type_1_iv_poster)
-                        .setImageResource(R.drawable.frogo_bg_black_32dp)
+                        .setImageResource(R.drawable.ic_artist)
                 }
             })
             ?.createLayoutGrid(2)

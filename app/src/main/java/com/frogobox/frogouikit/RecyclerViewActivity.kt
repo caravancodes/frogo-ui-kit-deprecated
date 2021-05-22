@@ -14,15 +14,13 @@ class RecyclerViewActivity : BaseActivity() {
     }
 
     private fun setupViewPager() {
-        val pagerAdapter = BasePagerAdapter(supportFragmentManager)
-        pagerAdapter.setupPagerFragment(
-            RecyclerListFragment(), "List"
-        )
-        pagerAdapter.setupPagerFragment(
-            RecyclerGridFragment(),"Grid")
+        val pagerAdapter = BasePagerAdapter(this)
+        pagerAdapter.setupPagerFragment(RecyclerListFragment(), "List")
+        pagerAdapter.setupPagerFragment(RecyclerGridFragment(),"Grid")
+
         recyclerViewBinding.apply {
             viewpager.adapter = pagerAdapter
-            tablayout.setupWithViewPager(viewpager)
+            setupTabTitles(tablayout, viewpager, pagerAdapter.titles)
         }
     }
 
