@@ -1,7 +1,7 @@
 ![ScreenShoot Apps](docs/image/ss_banner.png?raw=true)
 
 ## About This Project
-[![](https://jitpack.io/v/amirisback/frogo-ui-kit.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-ui-kit)
+[![](https://jitpack.io/v/amirisback/frogo-ui-kit.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-ui-kit) <br>
 UI Kit for helping you in apps development
 
 ## Screen Shoot
@@ -13,11 +13,16 @@ UI Kit for helping you in apps development
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.5
+    $version_release = 2.0.0
 
 What's New??
 
     * Update Gradle Latest Version *
+    * Add Sample Code Implementation *
+    * Add New String Resource *
+    * Bug Fix *
+    * Update Resource *
+    * Enchance Performance *
 
 ## Download this project
 
@@ -36,16 +41,18 @@ What's New??
     
     dependencies {
             // library frogo-ui-kit
-            implementation 'com.github.amirisback:frogo-ui-kit:1.0.5'
+            implementation 'com.github.amirisback:frogo-ui-kit:2.0.0'
     }
 
 ## Documentation
-- drawables [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Drawable)
-- layouts [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Layouts)
-- dimens [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Dimens)
-- colors [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Colors)
-- strings [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Strings)
-- styles [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Styles)
+- Layouts
+    - RecyclerView List [Click Here](https://github.com/amirisback/frogo-ui-kit/blob/master/docs/recyclerview_list.md)
+    - RecyclerView Grid [Click Here](https://github.com/amirisback/frogo-ui-kit/blob/master/docs/recyclerview_grid.md)
+- Drawables [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Drawable)
+- Dimens [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Dimens)
+- Colors [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Colors)
+- Strings [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Strings)
+- Styles [Click Here](https://github.com/amirisback/frogo-ui-kit/wiki/Styles)
 
 
 ## Colaborator
