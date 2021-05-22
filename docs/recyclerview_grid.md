@@ -1,4 +1,4 @@
-## RecyclerView Gist
+## RecyclerView Grid
 documentation about ui layout frogo_rv_grid_type
 
 | No | Name                 | Attribute                   | Screenshoot              |
