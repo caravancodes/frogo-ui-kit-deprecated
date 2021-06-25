@@ -13,15 +13,11 @@ UI Kit for helping you in apps development
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.0.0
+    $version_release = 2.0.1
 
 What's New??
 
-    * Update Gradle Latest Version *
-    * Add Sample Code Implementation *
-    * Add New String Resource *
-    * Bug Fix *
-    * Update Resource *
+    * Update Build Gradle Latest Version *
     * Enchance Performance *
 
 ## Download this project
@@ -41,7 +37,7 @@ What's New??
     
     dependencies {
             // library frogo-ui-kit
-            implementation 'com.github.amirisback:frogo-ui-kit:2.0.0'
+            implementation 'com.github.amirisback:frogo-ui-kit:2.0.1'
     }
 
 ## Documentation
