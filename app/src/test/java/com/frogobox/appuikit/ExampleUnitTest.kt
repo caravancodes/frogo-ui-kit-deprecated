@@ -1,4 +1,4 @@
-package com.frogobox.frogouikit
+package com.frogobox.appuikit
 
 import org.junit.Test
 

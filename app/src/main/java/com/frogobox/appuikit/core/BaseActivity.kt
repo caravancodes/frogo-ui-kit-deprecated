@@ -1,4 +1,4 @@
-package com.frogobox.frogouikit.core
+package com.frogobox.appuikit.core
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
-import com.frogobox.frogouikit.databinding.ActivityMainBinding
-import com.frogobox.frogouikit.databinding.ActivityRecyclerViewBinding
-import com.frogobox.frogouikit.databinding.ActivityRecyclerViewDetailBinding
+import com.frogobox.appuikit.databinding.ActivityMainBinding
+import com.frogobox.appuikit.databinding.ActivityRecyclerViewBinding
+import com.frogobox.appuikit.databinding.ActivityRecyclerViewDetailBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 

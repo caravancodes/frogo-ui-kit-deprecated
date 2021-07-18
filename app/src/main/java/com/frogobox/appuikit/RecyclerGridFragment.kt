@@ -1,4 +1,4 @@
-package com.frogobox.frogouikit
+package com.frogobox.appuikit
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.frogobox.frogouikit.core.BaseFragment
-import com.frogobox.frogouikit.databinding.FragmentRecyclerGridBinding
-import com.frogobox.frogouikit.model.Layout
+import com.frogobox.appuikit.core.BaseFragment
+import com.frogobox.appuikit.databinding.FragmentRecyclerGridBinding
+import com.frogobox.appuikit.model.Layout
 import com.frogobox.recycler.core.IFrogoViewAdapter
 import com.google.gson.Gson
 

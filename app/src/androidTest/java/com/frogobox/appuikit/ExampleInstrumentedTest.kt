@@ -1,4 +1,4 @@
-package com.frogobox.frogouikit
+package com.frogobox.appuikit
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

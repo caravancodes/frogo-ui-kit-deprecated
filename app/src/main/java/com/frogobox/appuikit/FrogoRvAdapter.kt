@@ -1,11 +1,10 @@
-package com.frogobox.frogouikit
+package com.frogobox.appuikit
 
 import android.content.Context
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.frogobox.recycler.core.IFrogoViewAdapter
-import org.w3c.dom.Text
 
 /*
  * Created by faisalamir on 22/05/21

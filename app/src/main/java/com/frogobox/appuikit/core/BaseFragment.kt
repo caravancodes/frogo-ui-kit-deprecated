@@ -1,9 +1,9 @@
-package com.frogobox.frogouikit.core
+package com.frogobox.appuikit.core
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.frogobox.frogouikit.databinding.FragmentRecyclerGridBinding
-import com.frogobox.frogouikit.databinding.FragmentRecyclerListBinding
+import com.frogobox.appuikit.databinding.FragmentRecyclerGridBinding
+import com.frogobox.appuikit.databinding.FragmentRecyclerListBinding
 
 /*
  * Created by faisalamir on 21/05/21

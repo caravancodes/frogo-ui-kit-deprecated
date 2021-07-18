@@ -1,11 +1,11 @@
-package com.frogobox.frogouikit
+package com.frogobox.appuikit
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import com.frogobox.frogouikit.core.BaseActivity
-import com.frogobox.frogouikit.model.Main
+import com.frogobox.appuikit.core.BaseActivity
+import com.frogobox.appuikit.model.Main
 import com.frogobox.recycler.core.IFrogoViewAdapter
 
 class MainActivity : BaseActivity() {

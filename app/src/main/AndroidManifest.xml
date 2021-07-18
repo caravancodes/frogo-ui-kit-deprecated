@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.frogobox.frogouikit">
+    package="com.frogobox.appuikit">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecyclerViewDetailActivity"></activity>
-        <activity android:name=".RecyclerViewActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.frogobox.appuikit.RecyclerViewDetailActivity"></activity>
+        <activity android:name="com.frogobox.appuikit.RecyclerViewActivity" />
+        <activity android:name="com.frogobox.appuikit.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
