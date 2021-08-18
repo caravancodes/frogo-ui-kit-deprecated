@@ -1,6 +1,6 @@
-![ScreenShoot Apps](docs/image/ss_banner.png?raw=true)
+![ScreenShoot Apps](https://raw.githubusercontent.com/amirisback/amirisback/master/docs/image/deprecated.png?raw=true)
 
-## About This Project
+## frogo-ui-kit - Please Use [frogo-android-ui-kit](https://github.com/frogobox/frogo-android-ui-kit)
 [![](https://jitpack.io/v/amirisback/frogo-ui-kit.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-ui-kit) <br>
 UI Kit for helping you in apps development
 
